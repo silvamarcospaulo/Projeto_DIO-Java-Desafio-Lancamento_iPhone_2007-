@@ -1,4 +1,4 @@
-package Dispositivos.Services;
+package Services;
 
 public interface WebBrowser {
     public void exibirPagina();

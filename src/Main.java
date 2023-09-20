@@ -1,11 +1,6 @@
-package Dispositivos;
-
 import Dispositivos.*;
-import Dispositivos.Services.Device;
-
-import java.util.Deque;
+import Services.*;
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -30,7 +25,7 @@ public class Main {
         }while(!turnedOn);
 
         do {
-            meuiPhone.ligar();
+            meuiPhone.ligarIphone();
 
             System.out.print("Ação: ");
             menuOption = read.nextInt();

@@ -1,8 +1,8 @@
-package Dispositivos.Services;
+package Dispositivos;
 
-
+import Services.*;
 public class Device extends IPhone{
-    public void ligar() {
+    public void ligarIphone() {
         System.out.println(
             "\n\n\n\n\n\n" +
             " ╭━━━━━━━━━━━━━━╮\n" +

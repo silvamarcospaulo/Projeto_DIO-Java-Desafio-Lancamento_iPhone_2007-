@@ -1,6 +1,12 @@
-package Dispositivos.Services;
+package Dispositivos;
+
+import Services.CellPhone;
+import Services.IPod;
+import Services.WebBrowser;
 
 public class IPhone implements IPod, CellPhone, WebBrowser {
+
+    //iPod
 
     public void tocar() {
         System.out.println(
@@ -53,6 +59,8 @@ public class IPhone implements IPod, CellPhone, WebBrowser {
         );
     }
 
+    //Phone
+
     public void ligar() {
         System.out.println(
                 "\n\n\n\n\n\n" +
@@ -103,6 +111,8 @@ public class IPhone implements IPod, CellPhone, WebBrowser {
                 " ╰━━━━━━━━━━━━━━╯\n"
         );
     }
+
+    //web
 
     public void exibirPagina(){
         System.out.println(
